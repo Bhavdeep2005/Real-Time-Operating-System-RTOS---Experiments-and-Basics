@@ -14,6 +14,7 @@ GPIO (General Purpose Input/Output) pins are used in microcontrollers to interfa
 
 In this experiment, GPIO pin PA5 is configured as a digital output to control the onboard LED. The LED blinking operation is achieved by continuously toggling the GPIO state with a software delay between ON and OFF conditions.
 
+
 ## Procedure
 1. Create a new STM32 project for STM32F446RE in STM32CubeMX.
 2. Configure PA5 as a GPIO output pin.
@@ -26,10 +27,10 @@ In this experiment, GPIO pin PA5 is configured as a digital output to control th
 ## Code
 The implementation code is available in the `main.c` file.
 
+## Output
+The onboard LED connected to PA5 blinks successfully at a fixed interval using software delay.
+
 ### Important Code Snippet
 ```c
 HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 HAL_Delay(500);
-
-## Output
-The onboard LED connected to PA5 blinks successfully at a fixed interval using software delay.
