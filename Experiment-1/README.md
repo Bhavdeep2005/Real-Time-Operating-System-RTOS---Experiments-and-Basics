@@ -30,3 +30,6 @@ The implementation code is available in the `main.c` file.
 ```c
 HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 HAL_Delay(500);
+
+## Output
+The onboard LED connected to PA5 blinks successfully at a fixed interval using software delay.
