@@ -1,45 +1,32 @@
-# Experiment 1 – LED Blinking using GPIO
+# Experiment 1: GPIO Output (LED Blinking)
 
-## Objective
-To interface an LED with STM32F4 microcontroller and perform LED blinking using GPIO output mode.
+## Aim
+To configure a GPIO pin of STM32F446RE as a digital output and verify LED blinking operation using software delay routines.
 
----
-
-## Components Required
-
-- STM32F4 Discovery/Nucleo Board
+## Apparatus Required
+- STM32 Nucleo-F446RE Development Board
+- USB Type-A to Mini-B Cable
 - STM32CubeIDE
-- USB Cable
-- Onboard LED
-
----
+- STM32CubeMX
 
 ## Theory
+GPIO (General Purpose Input/Output) pins are used in microcontrollers to interface with external devices such as LEDs, switches, and sensors. In STM32 microcontrollers, GPIO pins can be configured as input or output using STM32CubeMX and STM32CubeIDE.
 
-GPIO (General Purpose Input Output) pins are used for digital input and output operations in embedded systems. In this experiment, GPIO pin PA5 is configured as output mode to drive an LED.
+In this experiment, GPIO pin PA5 is configured as a digital output to control the onboard LED. The LED blinking operation is achieved by continuously toggling the GPIO state with a software delay between ON and OFF conditions.
 
-The STM32 microcontroller continuously toggles the LED state with a software delay, creating a blinking effect. This experiment introduces GPIO initialization, digital output control, and basic HAL functions.
+## Procedure
+1. Create a new STM32 project for STM32F446RE in STM32CubeMX.
+2. Configure PA5 as a GPIO output pin.
+3. Configure clock settings and generate project code.
+4. Open the generated project in STM32CubeIDE.
+5. Write code to toggle the GPIO pin using software delay.
+6. Build and upload the program to the STM32 board.
+7. Observe the onboard LED blinking.
 
----
+## Code
+The implementation code is available in the `main.c` file.
 
-## Software Used
-
-- STM32CubeIDE
-- STM32 HAL Drivers
-
----
-
-## Program Flow
-
-```text
-Initialize HAL
-       ↓
-Configure System Clock
-       ↓
-Initialize GPIO
-       ↓
-Toggle LED
-       ↓
-Delay
-       ↓
-Repeat
+### Important Code Snippet
+```c
+HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+HAL_Delay(500);
