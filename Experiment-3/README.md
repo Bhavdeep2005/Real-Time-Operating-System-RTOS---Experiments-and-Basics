@@ -17,6 +17,7 @@ To measure distance using HC-SR04 ultrasonic sensor and display the measured val
 - HC-SR04 Ultrasonic Sensor
 - UART Terminal
 - STM32CubeIDE
+- STM32CubeMX
 
 ---
 
