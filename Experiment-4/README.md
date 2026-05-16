@@ -16,6 +16,7 @@ To generate PWM signals using STM32 timers for LED brightness control.
 - STM32F4 Board
 - LEDs
 - STM32CubeIDE
+- STM32CubeMX
 
 ---
 
