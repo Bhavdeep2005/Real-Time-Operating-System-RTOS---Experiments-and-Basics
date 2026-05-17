@@ -50,26 +50,3 @@ A comprehensive collection of embedded system and RTOS laboratory experiments pe
 
 ---
 
-## Repository Structure
-
-```text
-Real-Time-Operating-System-RTOS---Experiments-and-Basics/
-│
-├── Experiment-1-GPIO/
-│   ├── README.md
-│   ├── main.c
-│   ├── project.ioc
-│   ├── report.pdf
-│   └── output.png
-│
-├── Experiment-2-Button/
-├── Experiment-3-Ultrasonic/
-├── Experiment-4-PWM/
-├── Experiment-5-SuperLoop/
-├── Experiment-6-FreeRTOS-Basic/
-├── Experiment-7-Task-Priority/
-├── Experiment-8-EXTI-Semaphore/
-├── Experiment-9-Queue-UART/
-├── Experiment-10-Counting-Semaphore/
-├── Experiment-11-Mutex/
-├── Experiment-12-Task-Timing/
