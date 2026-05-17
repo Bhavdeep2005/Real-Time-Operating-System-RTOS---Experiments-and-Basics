@@ -47,8 +47,6 @@ A comprehensive collection of embedded system and RTOS laboratory experiments pe
 | Experiment 8 | EXTI Interrupt with Semaphore |
 | Experiment 9 | Queue with UART Communication |
 | Experiment 10 | Counting Semaphore |
-| Experiment 11 | Mutex for Shared Resource |
-| Experiment 12 | Task Timing and Delay Management |
 
 ---
 
