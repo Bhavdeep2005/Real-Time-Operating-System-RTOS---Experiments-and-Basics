@@ -1,10 +1,10 @@
 
 ---
 
-# Experiment 6 – FreeRTOS Single Task LED Blinking
+# Experiment 6 – Single Task using FreeRTOS
 
 ```md
-# Experiment 6 – FreeRTOS Single Task LED Blinking
+# Experiment 6 – Single Task using FreeRTOS
 
 ## Objective
 To create and execute a single FreeRTOS task for LED blinking.
