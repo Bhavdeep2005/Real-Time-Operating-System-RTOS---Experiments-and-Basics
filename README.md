@@ -5,51 +5,6 @@ A comprehensive collection of embedded system and RTOS laboratory experiments pe
 
 ---
 
-## Objectives
-- Understand the fundamentals of embedded systems and RTOS.
-- Learn STM32 peripheral configuration using STM32CubeMX.
-- Implement GPIO, PWM, and sensor interfacing.
-- Explore FreeRTOS task creation and scheduling.
-- Understand synchronization and communication mechanisms.
-- Develop practical real-time embedded applications.
-
----
-
-## Hardware and Software Used
-
-### Hardware
-- STM32 Nucleo-F446RE Development Board
-- USB Type-A to Mini-B Cable
-- LEDs
-- Push Buttons
-- Ultrasonic Sensor (HC-SR04)
-- Breadboard and Jumper Wires
-
-### Software
-- STM32CubeIDE
-- STM32CubeMX
-- FreeRTOS
-- Embedded C Programming
-
----
-
-## Experiment List
-
-| Experiment No. | Title |
-|-----------------|--------|
-| Experiment 1 | GPIO Output (LED Blinking) |
-| Experiment 2 | Button Interface |
-| Experiment 3 | Ultrasonic Sensor Interfacing |
-| Experiment 4 | PWM Generation |
-| Experiment 5 | Super Loop Program |
-| Experiment 6 | FreeRTOS Basic Task Creation |
-| Experiment 7 | Task Priority Scheduling |
-| Experiment 8 | EXTI Interrupt with Semaphore |
-| Experiment 9 | Queue with UART Communication |
-| Experiment 10 | Counting Semaphore |
-
-# Real-Time Operating System (RTOS) Experiments on STM32F446RE
-
 ## Overview
 
 This repository contains a collection of RTOS-based experiments implemented on the STM32F446RE Nucleo development board using STM32CubeIDE and FreeRTOS.
