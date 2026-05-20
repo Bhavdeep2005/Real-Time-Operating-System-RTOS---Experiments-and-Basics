@@ -1,4 +1,4 @@
-# Experiment 2: Button Interface
+# Experiment 2 – Push Button Interfacing
 
 ## Aim
 To configure a GPIO pin of STM32F446RE as a digital input and interface a push button to control an LED.
