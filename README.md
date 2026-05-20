@@ -1,13 +1,9 @@
 # Real-Time-Operating-System-RTOS---Experiments-and-Basics
 
-## Description
+## Overview
 A comprehensive collection of embedded system and RTOS laboratory experiments performed using STM32F446RE. This repository covers fundamental embedded concepts such as GPIO interfacing, button input, ultrasonic sensor interfacing, PWM generation, and advanced FreeRTOS concepts including task scheduling, semaphores, queues, mutex, interrupts, and real-time task management.
 
 ---
-
-## Overview
-
-This repository contains a collection of RTOS-based experiments implemented on the STM32F446RE Nucleo development board using STM32CubeIDE and FreeRTOS.
 
 The experiments are designed to provide practical understanding of:
 - GPIO interfacing
