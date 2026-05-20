@@ -1,10 +1,10 @@
 
 ---
 
-# Experiment 9 – Inter-Task Communication using Message Queue
+# Experiment 9 – Message Queue Communication
 
 ```md
-# Experiment 9 – Inter-Task Communication using Message Queue
+# Experiment 9 – Message Queue Communication
 
 ## Objective
 To implement inter-task communication using RTOS message queues.
