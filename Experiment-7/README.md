@@ -1,10 +1,10 @@
 
 ---
 
-# Experiment 7 – FreeRTOS Task Priority Scheduling
+# Experiment 7 – Multitasking using FreeRTOS
 
 ```md
-# Experiment 7 – FreeRTOS Task Priority Scheduling
+# Experiment 7 – Multitasking using FreeRTOS
 
 ## Objective
 To understand RTOS task priority scheduling using multiple tasks.
