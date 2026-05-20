@@ -1,7 +1,7 @@
 
 ---
 
-# Experiment 4 – PWM Generation using Timer
+# Experiment 4 – PWM Signal Generation
 
 ```md
 # Experiment 4 – PWM Generation using Timer
