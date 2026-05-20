@@ -4,7 +4,7 @@
 # Experiment 5 – Time-Based Scheduling without RTOS
 
 ```md
-# Experiment 5 – Time Sharing Based Task Scheduling
+# Experiment 5 – Time-Based Scheduling without RTOS
 
 ## Objective
 To implement software-based time sharing using periodic task execution.
